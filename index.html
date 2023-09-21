@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Boxes Sneakers</title>
+</head>
+<body>
+  <header id="navBar">
+    <div class="logo">
+        <img src="images/logo.png" alt="">
+    </div>
+      <section id="menu">
+          <div class="menu1">
+              <ul>
+                  <li>CATEGORIAS</li>
+                  <li>OFERTAS</li>
+              </ul>
+          </div>
+      </section>
+      <section class="buscarr">
+        <div class="menu2">
+              <ul>
+                  <li>CREAR CUENTA</li>
+                  <li>INGRESAR</li>
+              </ul>
+        </div>
+        <img src="images/buscador.png" alt="" class="buscador">
+        <img src="images/carrito.png" alt="" class="carro">
+      </section>
+    </header>
+    <main>
+      <section>
+        <h1>Elegir modelo:</h1>
+        <h3 id="dolares">
+          USD: <span><!----></span>
+        </h3>
+        <ul>
+          <li><img src="images/AirMax90.jpg" alt="" class="zapas">Nike Air Max 90 <span>93 usd</span><button onclick="comprar(airMax90)">Agregar al carrito</button></li>
+          <li><img src="images/AirForce1.jpg" alt="" class="zapas">Nike Air Force 1 <span>72 usd</span><button onclick="comprar(airForce1)">Agregar al carrito</button></li>
+          <li><img src="images/Forum.jpg" alt="" class="zapas">Adidas Forum <span>49 usd</span><button onclick="comprar(forum)">Agregar al carrito</button></li>
+          <li><img src="images/Campus.jpg" alt="" class="zapas">Adidas Campus <span>75 usd</span><button onclick="comprar(campus)">Agregar al carrito</button></li>
+          <li><img src="images/Retro1.jpg" alt="" class="zapas">Nike Jordan Retro 1 <span>216 usd</span><button onclick="comprar(retro1)">Agregar al carrito</button></li>
+          <li><img src="images/Retro4.jpg" alt="" class="zapas">Nike Jordan Retro 4 <span>212 usd</span><button onclick="comprar(retro4)">Agregar al carrito</button></li>
+          <li><img src="images/350.jpg" alt="" class="zapas">Adidas Yeezy 350 <span>186 usd</span><button onclick="comprar(y350)">Agregar al carrito</button></li>
+          <li><img src="images/700.jpg" alt="" class="zapas">Adidas Yeezy 700 <span>175 usd</span><button onclick="comprar(y700)">Agregar al carrito</button></li>
+        </ul>
+      </section>
+      <section class="car">
+        <h2>Mi carrito</h2>
+        <h3 id="total">
+          Total a pagar: USD <span><!----></span>
+        </h3>
+        <ul id="carrito">
+          <!---->
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div class="logo2">
+          <img src="images/logo.png" alt="">
+      </div>
+      <div class="pagos">
+          <img src="images/visa.jpg" alt="">
+          <img src="images/master.jpg" alt="">
+          <img src="images/mp.jpg" alt="">
+      </div>
+  </footer>
+    <script src="carrito.js"></script>
+</body>
+</html>
